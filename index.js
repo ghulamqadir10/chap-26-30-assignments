@@ -41,7 +41,7 @@ function rolldice() {
 var result1 = rolldice();                          //roll dice var ma save kiya taka function run krwasakan
 document.write("<h4>random dice value: " + result1 +"<br>")
 var result2 = rolldice();
-document.write("random dice value: " + result2+"/h4")
+document.write("random dice value: " + result2+"</h4>")
 
 
 // Question no  5     //another method;
@@ -50,11 +50,11 @@ var random_val=Math.floor(Math.random()*2)+1;
 let num1=1;
 let num2=2;
 if(random_val===num1){
-     document.write("<h4>"+num1+"<br>"+"random coin value: Tails" );
-     document.write("<h4>"+num2+"<br>"+"random coin value: Heads" );
+     document.write("<h4>"+num1+"<br>"+"random coin value: Tails </h4>" );
+     document.write("<h4>"+num2+"<br>"+"random coin value: Heads</h4>" );
     }else if(random_val===num2){
-        document.write("<h4>"+num2+"<br>"+"random coin value: Heads" );
-        document.write("<h4>"+num1+"<br>"+"random coin value: Tails" );
+        document.write("<h4>"+num2+"<br>"+"random coin value: Heads</h4>" );
+        document.write("<h4>"+num1+"<br>"+"random coin value: Tails</h4>" );
     }
 
 
